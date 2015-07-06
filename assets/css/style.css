@@ -202,6 +202,7 @@ input {
 /* HEADER SECTION */
 #h {
 	background: url(../img/header.jpg) no-repeat center top;
+    background-size: cover;
 	padding-top: 5px;
 	background-attachment: relative;
 	background-position: center center;
@@ -249,7 +250,7 @@ input {
 
 .portfolio {
 	padding:0 !important;
-	margin:0 !important;
+    margin:0 !important;
 	display:block;
 }
 
@@ -278,8 +279,8 @@ input {
 {
 	height:100%;
 	width:100%;
-	background-color:#00b3fe;
-	background-color:rgba(0,179,254,.9);
+	background-color:#88b30c;
+	background-color:rgba(136, 179, 12, 0.9);
 	text-align:center;
 }
 
@@ -327,7 +328,7 @@ input {
 #f {
 	padding-top: 25px;
 	padding-bottom: 25px;
-	background-color: #22A7F0;
+	background-color: #88b30c;
 }
 
 #f i {
@@ -375,4 +376,7 @@ input {
 #h2 h3 {
 	margin-top: 30px;
 	letter-spacing: 1px;
+}
+.portfolio-item {
+    padding:10px;
 }
