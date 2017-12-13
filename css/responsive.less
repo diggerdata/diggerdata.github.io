@@ -1,0 +1,44 @@
+@import "mixins.less";
+@import "colors.less";
+/* Extra small devices (phones, less than 768px) */
+
+@media (max-width: 767px) {
+    .header {
+        background: @blue !important;
+        .button-nav {
+            margin-left: 0 !important;
+        }
+    }
+    .header .main-nav .nav .nav-item {
+        float: none !important;
+    }
+    .header .main-nav button {
+        margin-right: 0;
+    }
+    .header .main-nav .navbar-collapse {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav-pills {
+        & > li {
+            & > a {
+                font-size: 10px;
+            }
+        }
+    }
+    .remove {
+        display: none;
+    }
+    .nav-tabs.nav-justified>li>a {
+        border-radius: 0;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
