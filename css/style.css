@@ -201,6 +201,12 @@ a:focus {
 .skills .full {
   height: 100%;
 }
+.skills a {
+  color: white;
+}
+.skills a:hover {
+  color: #b3b3b3;
+}
 .skills .overlay {
   height: 100%;
   width: 100%;
