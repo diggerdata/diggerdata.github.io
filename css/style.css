@@ -202,10 +202,10 @@ a:focus {
   height: 100%;
 }
 .skills a {
-  color: white;
+  color: white !important;
 }
 .skills a:hover {
-  color: #b3b3b3;
+  color: #b3b3b3 !important;
 }
 .skills .overlay {
   height: 100%;
