@@ -234,7 +234,8 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #4CAF50;
+  background: url("../img/rbe.jpg");
+  background-size: cover;
   height: 100%;
   border: 3px solid #f2f2f2;
 }
@@ -246,7 +247,8 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #009688;
+  background: url("../img/wd.jpg");
+  background-size: cover;
   height: 100%;
   border: 3px solid #f2f2f2;
 }
@@ -258,7 +260,8 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FF9800;
+  background: url("../img/ai.jpg");
+  background-size: cover;
   height: 100%;
   border: 3px solid #f2f2f2;
 }
@@ -303,7 +306,7 @@ a:focus {
   opacity: 100;
 }
 .resume {
-  background: #fff;
+  background: #f2f2f2;
   margin-bottom: -52px;
   padding: 70px 0;
 }
